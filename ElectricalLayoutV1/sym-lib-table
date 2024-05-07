@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Captors")(type "KiCad")(uri "${KIPRJMOD}/Captors.kicad_sym")(options "")(descr ""))
+)
