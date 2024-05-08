@@ -1,0 +1,637 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Busbar_4"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BSB"
+			(at -0.508 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Busbar_4_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -7.62) (xy -1.27 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -1.27 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Busbar_4_1_1"
+			(rectangle
+				(start -2.54 -1.27)
+				(end 0 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 180)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 180)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 180)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Fuel_Cell"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -7.62 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Fuel_Cell_1_1"
+			(rectangle
+				(start -5.08 -1.27)
+				(end 5.08 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -6.35 180)
+				(length 2.54)
+				(name "+Ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -8.89 180)
+				(length 2.54)
+				(name "-Ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "FC_SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Fuel_Cell_Controller"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FCC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Fuel_Cell_Controller_1_1"
+			(rectangle
+				(start -13.97 -1.27)
+				(end 12.7 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -13.97 -6.35 0)
+				(length 2.54)
+				(name "+Ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -6.35 180)
+				(length 1.27)
+				(name "+Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 -8.89 0)
+				(length 2.54)
+				(name "-Ve"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -8.89 180)
+				(length 1.27)
+				(name "-Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -13.97 -2.54 0)
+				(length 2.54)
+				(name "FC_SIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -11.43 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -11.43 90)
+				(length 1.27)
+				(name "USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -11.43 90)
+				(length 1.27)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Merger_2_1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MRG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Merger_2_1_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -5.08) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -8.89) (xy 1.27 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Merger_2_1_1_1"
+			(rectangle
+				(start -3.81 -1.27)
+				(end 3.81 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -3.81 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -8.89 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)
