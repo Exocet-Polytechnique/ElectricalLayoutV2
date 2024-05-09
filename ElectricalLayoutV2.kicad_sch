@@ -5196,6 +5196,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 132 0 132 1)
 		)
 		(fill
 			(type none)
@@ -5239,7 +5240,7 @@
 	)
 	(text "H2 Plate"
 		(exclude_from_sim no)
-		(at 13.462 217.424 0)
+		(at 14.478 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5288,7 +5289,7 @@
 	)
 	(text "Motor & Throttle"
 		(exclude_from_sim no)
-		(at 258.064 65.786 0)
+		(at 247.142 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5312,7 +5313,7 @@
 	)
 	(text "Electronics Box"
 		(exclude_from_sim no)
-		(at 320.548 66.294 0)
+		(at 319.278 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
