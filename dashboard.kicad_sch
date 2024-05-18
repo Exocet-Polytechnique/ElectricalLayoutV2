@@ -617,12 +617,6 @@
 		(color 0 0 0 0)
 		(uuid "ac4699a4-ba6c-4a0b-8c09-26db20f90f8c")
 	)
-	(junction
-		(at 110.49 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc456880-1481-48b4-b271-912d9371daef")
-	)
 	(bus_entry
 		(at 107.95 90.17)
 		(size 2.54 2.54)
@@ -843,16 +837,6 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 95.25) (xy 110.49 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d735fa4-a799-4ebc-9cae-5f6be174c3ca")
-	)
-	(bus
-		(pts
 			(xy 186.69 92.71) (xy 186.69 88.9)
 		)
 		(stroke
@@ -900,16 +884,6 @@
 			(type default)
 		)
 		(uuid "782b6546-7e2f-4334-acd9-4956cd59d7bf")
-	)
-	(bus
-		(pts
-			(xy 86.36 95.25) (xy 86.36 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cff0d2-0be4-427a-9a5e-2701377927b4")
 	)
 	(bus
 		(pts
@@ -1220,26 +1194,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(hierarchical_label "THR_CTRL"
-		(shape passive)
-		(at 86.36 118.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbfc10fe-55e6-4d2b-b790-5d61c4f9e146")
-		(property "Connector" "Gland"
-			(at 84.836 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)

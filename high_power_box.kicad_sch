@@ -4069,7 +4069,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Exocet_Electrical:Connector_3")
 		(lib_id "Exocet_Electrical:Connector_3")
 		(at 63.5 49.53 180)
 		(unit 1)
