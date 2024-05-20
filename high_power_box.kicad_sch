@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "High Power Box Layout")
-		(date "2024-05-16")
-		(rev "1.1.1")
+		(date "2024-05-19")
+		(rev "1.2.0")
 		(company "Exocet Polytechnique Montréal")
 	)
 	(lib_symbols
@@ -2926,8 +2926,8 @@
 		(uuid 0ef7ddf0-5370-45cc-ae9b-c9fefa1bce18)
 	)
 	(rectangle
-		(start 82.55 91.694)
-		(end 199.39 96.52)
+		(start 83.185 92.075)
+		(end 198.755 95.885)
 		(stroke
 			(width 0)
 			(type default)
@@ -2939,7 +2939,7 @@
 	)
 	(text "Busbar"
 		(exclude_from_sim no)
-		(at 85.598 98.298 0)
+		(at 85.598 97.536 0)
 		(effects
 			(font
 				(size 1.27 1.27)

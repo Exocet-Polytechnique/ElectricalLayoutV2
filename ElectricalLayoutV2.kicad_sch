@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Electrical Layout 2024")
-		(date "2024-05-16")
-		(rev "1.1.1")
+		(date "2024-05-19")
+		(rev "1.2.0")
 		(company "Exocet Polytechnique Montréal")
 	)
 	(lib_symbols
@@ -1989,6 +1989,12 @@
 		(uuid "ac881f58-9443-425f-86ba-f966493d461c")
 	)
 	(junction
+		(at 115.57 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0d306c-7c9e-4016-985a-1cdb6e5140cf")
+	)
+	(junction
 		(at 41.91 88.9)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -2008,15 +2014,6 @@
 			(type default)
 		)
 		(uuid "00867ebb-f41c-4d0b-bf51-599e42c5b289")
-	)
-	(bus_entry
-		(at 344.17 158.75)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026753a8-2d4f-456e-afd3-88b9543174bd")
 	)
 	(bus_entry
 		(at 113.03 105.41)
@@ -2094,7 +2091,7 @@
 		(uuid "153900e5-56d7-4814-bbb6-e1e02553d976")
 	)
 	(bus_entry
-		(at 344.17 121.92)
+		(at 344.17 101.6)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2139,24 +2136,6 @@
 		(uuid "372480cb-cc3b-46c8-95b3-86204025f1e5")
 	)
 	(bus_entry
-		(at 344.17 73.66)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458b00be-087c-4d42-bdb6-75062faaa2bb")
-	)
-	(bus_entry
-		(at 344.17 154.94)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a2d4836-dc1c-4ab2-812f-c1d4879fd6d8")
-	)
-	(bus_entry
 		(at 66.04 118.11)
 		(size 2.54 2.54)
 		(stroke
@@ -2175,7 +2154,7 @@
 		(uuid "593f4886-28b8-4752-bd87-7d9f0afe02c0")
 	)
 	(bus_entry
-		(at 344.17 101.6)
+		(at 344.17 81.28)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2193,7 +2172,7 @@
 		(uuid "5a73a4ef-b487-496c-9acc-529ee7da3b9e")
 	)
 	(bus_entry
-		(at 344.17 114.3)
+		(at 344.17 93.98)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2202,7 +2181,16 @@
 		(uuid "62a15211-c336-4261-8572-2a8511016516")
 	)
 	(bus_entry
-		(at 344.17 93.98)
+		(at 113.03 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e980f8-3723-48d8-8f97-5e1d28e8afe0")
+	)
+	(bus_entry
+		(at 344.17 73.66)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2238,13 +2226,22 @@
 		(uuid "7b6c4749-d60b-4441-9eda-1acb5f2f2316")
 	)
 	(bus_entry
-		(at 344.17 81.28)
-		(size -2.54 2.54)
+		(at 113.03 45.72)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ec4abc7-e6de-41e4-b793-e087333a98f3")
+		(uuid "7c1c4dbe-6cf4-48ff-bd89-b6bf96580f9f")
+	)
+	(bus_entry
+		(at 113.03 49.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5c3726-36da-4714-a9b7-f84ee4d2a735")
 	)
 	(bus_entry
 		(at 215.9 228.6)
@@ -2265,7 +2262,7 @@
 		(uuid "86661429-bf77-48e4-ba73-fb5f3ef93c83")
 	)
 	(bus_entry
-		(at 344.17 97.79)
+		(at 344.17 77.47)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2328,7 +2325,7 @@
 		(uuid "a4a14878-4862-4121-a43d-f4a9d68e58b4")
 	)
 	(bus_entry
-		(at 344.17 142.24)
+		(at 344.17 121.92)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2337,7 +2334,7 @@
 		(uuid "ab29a4a8-7383-45f3-9893-34e92bee98a9")
 	)
 	(bus_entry
-		(at 344.17 134.62)
+		(at 344.17 114.3)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2355,22 +2352,13 @@
 		(uuid "ae18c62d-44ad-459d-b178-9a93793fc5a2")
 	)
 	(bus_entry
-		(at 344.17 138.43)
+		(at 344.17 118.11)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af1d5411-d12d-46a7-96d4-029e58b7d34a")
-	)
-	(bus_entry
-		(at 344.17 77.47)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1aaff41-5557-48a5-8bb5-c04b8fd2e637")
 	)
 	(bus_entry
 		(at 119.38 118.11)
@@ -2448,22 +2436,13 @@
 		(uuid "e7a66785-34a0-4e1a-9eec-d7474855c83d")
 	)
 	(bus_entry
-		(at 344.17 118.11)
+		(at 344.17 97.79)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8c3223a-1922-49cb-9bd7-3719787189d3")
-	)
-	(bus_entry
-		(at 344.17 162.56)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f462a0ab-f893-4855-b2b3-d61094dc8919")
 	)
 	(bus
 		(pts
@@ -2497,16 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 158.75) (xy 344.17 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025c483e-5726-42a8-9802-1e000bb61c9b")
-	)
-	(wire
-		(pts
 			(xy 232.41 223.52) (xy 234.95 223.52)
 		)
 		(stroke
@@ -2517,13 +2486,23 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 90.17) (xy 344.17 93.98)
+			(xy 344.17 69.85) (xy 344.17 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b4e7b0c-7c9c-4ee3-899a-cf43add4fe4a")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb9401e-ce63-4c96-9a4b-9d4ac5325c04")
 	)
 	(wire
 		(pts
@@ -2566,16 +2545,6 @@
 		)
 		(uuid "138368d6-0921-49fd-91a9-d279f69c8fd3")
 	)
-	(bus
-		(pts
-			(xy 334.01 91.44) (xy 341.63 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1848fe99-c85d-4a0f-b3eb-074e91e1766b")
-	)
 	(wire
 		(pts
 			(xy 64.77 85.09) (xy 64.77 118.11)
@@ -2585,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "18969aea-5bac-4811-bf39-7149e8eba234")
+	)
+	(wire
+		(pts
+			(xy 113.03 41.91) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5b7e75-e520-4d8b-96fb-7d289a1f4efb")
 	)
 	(bus
 		(pts
@@ -2598,23 +2577,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 146.05) (xy 344.17 146.05)
+			(xy 354.33 125.73) (xy 344.17 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1af0b113-1e6c-4c38-8ab4-544d1bb71e8d")
-	)
-	(bus
-		(pts
-			(xy 334.01 111.76) (xy 341.63 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b69e43c-edc4-4c83-b49b-9a552a323dcf")
 	)
 	(wire
 		(pts
@@ -2671,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 118.11) (xy 344.17 118.11)
+			(xy 346.71 97.79) (xy 344.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2723,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 130.81) (xy 344.17 130.81)
+			(xy 354.33 110.49) (xy 344.17 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2702,17 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 116.84) (xy 341.63 111.76)
+			(xy 334.01 111.76) (xy 341.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f74c698-aeec-4f68-9b0f-dace36e0beb5")
+	)
+	(bus
+		(pts
+			(xy 341.63 96.52) (xy 341.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 138.43) (xy 344.17 138.43)
+			(xy 346.71 118.11) (xy 344.17 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2775,23 +2754,13 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 105.41) (xy 344.17 105.41)
+			(xy 354.33 85.09) (xy 344.17 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3c5b6641-b69d-4123-85fa-f9beba1c6b66")
-	)
-	(wire
-		(pts
-			(xy 354.33 151.13) (xy 344.17 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c7c2a57-7271-4d5b-a29f-e28d2d63fe07")
 	)
 	(wire
 		(pts
@@ -2827,17 +2796,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 157.48) (xy 341.63 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a33d0d-f8cc-4d17-bc60-0572386717cd")
-	)
-	(bus
-		(pts
-			(xy 341.63 100.33) (xy 341.63 104.14)
+			(xy 341.63 80.01) (xy 341.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2854,6 +2813,16 @@
 			(type default)
 		)
 		(uuid "445812e1-7138-49d4-aa5e-4d27d4ae880e")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a30470-0461-4736-8f60-44fff7076067")
 	)
 	(wire
 		(pts
@@ -2877,7 +2846,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 96.52) (xy 341.63 91.44)
+			(xy 341.63 76.2) (xy 341.63 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2887,7 +2856,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 125.73) (xy 344.17 121.92)
+			(xy 344.17 105.41) (xy 344.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2904,16 +2873,6 @@
 			(type default)
 		)
 		(uuid "4b0a8f54-11c2-4c0b-96f8-d4f2c67f6d6e")
-	)
-	(wire
-		(pts
-			(xy 344.17 69.85) (xy 344.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f0c2bb0-490d-45c1-ae00-555bb34f359b")
 	)
 	(bus
 		(pts
@@ -2934,16 +2893,6 @@
 			(type default)
 		)
 		(uuid "50b8c597-7495-43d0-8c83-7a3afb1d0038")
-	)
-	(bus
-		(pts
-			(xy 341.63 161.29) (xy 341.63 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "549bffbd-2233-4dcf-aa59-f74bbc60cf9e")
 	)
 	(wire
 		(pts
@@ -3007,19 +2956,9 @@
 		)
 		(uuid "5bd9f0ed-438b-4e27-a371-dfff8ac131e3")
 	)
-	(bus
-		(pts
-			(xy 334.01 132.08) (xy 341.63 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d2bf2ea-5eea-4e26-bbd2-0b42672b0930")
-	)
 	(wire
 		(pts
-			(xy 354.33 110.49) (xy 344.17 110.49)
+			(xy 354.33 90.17) (xy 344.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3070,16 +3009,6 @@
 		)
 		(uuid "630e9dd8-d3ae-461c-9905-7e795051a7dd")
 	)
-	(bus
-		(pts
-			(xy 334.01 71.12) (xy 341.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6342946f-31a0-4e71-8ecc-8272799dfb26")
-	)
 	(wire
 		(pts
 			(xy 201.93 101.6) (xy 199.39 101.6)
@@ -3090,9 +3019,19 @@
 		)
 		(uuid "63d51d68-05c9-4f3d-aba0-2e0e699f1438")
 	)
+	(bus
+		(pts
+			(xy 115.57 55.88) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6564b102-51d8-4dee-9eab-4698c85c72b4")
+	)
 	(wire
 		(pts
-			(xy 344.17 110.49) (xy 344.17 114.3)
+			(xy 344.17 90.17) (xy 344.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3196,16 +3135,6 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 80.01) (xy 341.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7440195a-97ba-43e7-8fcd-4498bcc8a944")
-	)
-	(bus
-		(pts
 			(xy 293.37 234.95) (xy 293.37 232.41)
 		)
 		(stroke
@@ -3236,23 +3165,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 105.41) (xy 344.17 101.6)
+			(xy 344.17 85.09) (xy 344.17 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7733f578-60a1-4b5e-a4ce-dbe26c7be8ea")
-	)
-	(bus
-		(pts
-			(xy 334.01 152.4) (xy 341.63 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "778e11d3-b199-4e6d-a67d-8c951d2ab686")
 	)
 	(wire
 		(pts
@@ -3276,13 +3195,23 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 97.79) (xy 344.17 97.79)
+			(xy 346.71 77.47) (xy 344.17 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "793cf602-64ec-4ae5-b8b3-5a9cf46c7f28")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 113.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d47e07a-9eb5-40af-ac01-8729be198b9a")
 	)
 	(wire
 		(pts
@@ -3294,16 +3223,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "7e57ddaf-d008-44a4-88e5-cb83dcff6d92")
-	)
-	(bus
-		(pts
-			(xy 341.63 76.2) (xy 341.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c8b84a-6eef-432e-bf81-9c1f9ee6e095")
 	)
 	(wire
 		(pts
@@ -3339,7 +3258,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 116.84) (xy 341.63 120.65)
+			(xy 341.63 96.52) (xy 341.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3474,17 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 166.37) (xy 344.17 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9debbb99-ba57-4597-b63c-35ef73c5358a")
-	)
-	(wire
-		(pts
-			(xy 354.33 125.73) (xy 344.17 125.73)
+			(xy 354.33 105.41) (xy 344.17 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3536,16 +3445,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 85.09) (xy 344.17 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25e2b0c-33ac-4d16-8605-18b746cce104")
-	)
-	(wire
-		(pts
 			(xy 288.29 232.41) (xy 290.83 232.41)
 		)
 		(stroke
@@ -3576,7 +3475,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 140.97) (xy 341.63 144.78)
+			(xy 341.63 120.65) (xy 341.63 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3586,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 146.05) (xy 344.17 142.24)
+			(xy 344.17 125.73) (xy 344.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3596,13 +3495,13 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 76.2) (xy 341.63 80.01)
+			(xy 334.01 71.12) (xy 341.63 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aac73f9d-7c6c-47c5-bc1b-1ee4f69a8b25")
+		(uuid "aacaa7e1-4753-4ae8-b134-73d37661fdc7")
 	)
 	(bus
 		(pts
@@ -3656,6 +3555,16 @@
 		)
 		(uuid "b22d5284-dbc6-42d9-9996-3a7cf8b17c59")
 	)
+	(bus
+		(pts
+			(xy 115.57 48.26) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ad810a-4ab0-468e-b57e-49386a645c3a")
+	)
 	(wire
 		(pts
 			(xy 261.62 229.87) (xy 264.16 229.87)
@@ -3665,16 +3574,6 @@
 			(type default)
 		)
 		(uuid "b748fc22-0b01-41fc-a6cb-b78955679477")
-	)
-	(wire
-		(pts
-			(xy 354.33 166.37) (xy 344.17 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f57d7e-c395-4c9d-a9b4-8fc36fd718e5")
 	)
 	(wire
 		(pts
@@ -3710,17 +3609,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 157.48) (xy 341.63 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd084d1a-a4b4-40b4-be7c-17ba7c3609e1")
-	)
-	(bus
-		(pts
-			(xy 341.63 137.16) (xy 341.63 140.97)
+			(xy 341.63 116.84) (xy 341.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3741,16 +3630,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 69.85) (xy 344.17 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c07f600d-8d25-45be-a2c6-90fca65cf229")
-	)
-	(wire
-		(pts
 			(xy 38.1 97.79) (xy 38.1 119.38)
 		)
 		(stroke
@@ -3759,6 +3638,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "c1b57816-031a-4d7c-b41e-c23d78816fbb")
+	)
+	(bus
+		(pts
+			(xy 334.01 91.44) (xy 341.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3016c4b-9b5d-4739-af8d-dcf3a7981d80")
 	)
 	(wire
 		(pts
@@ -3803,23 +3692,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 130.81) (xy 344.17 134.62)
+			(xy 344.17 110.49) (xy 344.17 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd1da391-b26e-4dae-b261-79fa917112f9")
-	)
-	(wire
-		(pts
-			(xy 354.33 85.09) (xy 344.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cffa6bdc-fa64-4ba4-bcef-4442aae4cac7")
 	)
 	(wire
 		(pts
@@ -3831,16 +3710,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "d320ee7e-cbed-4358-9638-1997e4db639d")
-	)
-	(wire
-		(pts
-			(xy 344.17 151.13) (xy 344.17 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6dee7d4-ea15-4c4f-92c6-67a746e82d5e")
 	)
 	(bus
 		(pts
@@ -3865,6 +3734,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 49.53) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb91d49-b85f-4a92-b4fc-527379fc7404")
+	)
+	(wire
+		(pts
 			(xy 182.88 99.06) (xy 186.69 99.06)
 		)
 		(stroke
@@ -3873,16 +3752,6 @@
 			(color 204 102 0 1)
 		)
 		(uuid "dc0dd171-f330-4f97-ba41-b9c4432c3e31")
-	)
-	(wire
-		(pts
-			(xy 346.71 77.47) (xy 344.17 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7187d0-be51-4466-8d89-457a7ecd3cd0")
 	)
 	(wire
 		(pts
@@ -3917,7 +3786,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 96.52) (xy 341.63 100.33)
+			(xy 341.63 76.2) (xy 341.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3987,13 +3856,23 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 137.16) (xy 341.63 132.08)
+			(xy 341.63 116.84) (xy 341.63 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e9ff655b-b3f1-4b72-a8b0-e5913ac87081")
+	)
+	(bus
+		(pts
+			(xy 115.57 52.07) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ec2971-9255-4fae-afac-7063332ba210")
 	)
 	(bus
 		(pts
@@ -4070,7 +3949,7 @@
 	)
 	(bus
 		(pts
-			(xy 341.63 120.65) (xy 341.63 124.46)
+			(xy 341.63 100.33) (xy 341.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4080,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 90.17) (xy 344.17 90.17)
+			(xy 354.33 69.85) (xy 344.17 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4461,7 +4340,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at 354.33 138.43 0)
+		(at 354.33 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4470,7 +4349,7 @@
 		(dnp no)
 		(uuid "233da363-298c-4b12-8ea2-5df4507af6b2")
 		(property "Reference" "U4"
-			(at 360.68 137.1599 0)
+			(at 360.68 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4359,7 @@
 			)
 		)
 		(property "Value" "DS18B20"
-			(at 360.68 139.6999 0)
+			(at 360.68 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4369,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 379.73 144.78 0)
+			(at 379.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4378,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 358.14 132.08 0)
+			(at 358.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4387,7 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 354.33 138.43 0)
+			(at 354.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4396,7 @@
 			)
 		)
 		(property "Name" "Battery Temperature Sensor"
-			(at 354.33 129.286 0)
+			(at 354.33 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,6 +4500,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 102.87 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f3de726-17cb-42b2-b80f-2fa06d818a14")
+		(property "Reference" "U1"
+			(at 96.52 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 96.52 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 77.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "FC CTRL Temperature Sensor"
+			(at 102.87 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f1567d7-e21c-4212-9ae0-871f6f645552")
+		)
+		(pin "1"
+			(uuid "ebc714ac-2f79-4544-be3b-2ed76e8adf67")
+		)
+		(pin "3"
+			(uuid "33f5ea8d-390f-42d1-a0c2-6d55ae128b2d")
+		)
+		(instances
+			(project "ElectricalLayoutV2"
+				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Exocet_Electrical:Outboard_5.0")
 		(at 193.04 96.52 0)
 		(unit 1)
@@ -4708,7 +4669,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Exocet_Electrical:Manometer")
 		(lib_id "Exocet_Electrical:Manometer")
 		(at 257.81 220.98 0)
 		(unit 1)
@@ -4793,7 +4753,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at 354.33 97.79 0)
+		(at 354.33 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4802,89 +4762,6 @@
 		(dnp no)
 		(uuid "5278964e-e55e-423d-b104-4e1f018a495c")
 		(property "Reference" "U2"
-			(at 360.68 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 360.68 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 379.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 358.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 354.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "H2 Plate Temperature Sensor"
-			(at 354.33 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f09de3e3-23a8-49ab-8a68-5cfe18b6f5a0")
-		)
-		(pin "1"
-			(uuid "8f29c0e2-d57c-42ec-9596-e9c8229a875d")
-		)
-		(pin "3"
-			(uuid "29b8cc8b-ebbc-4466-8830-9f4d014bd71a")
-		)
-		(instances
-			(project "ElectricalLayoutV2"
-				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:DS18B20")
-		(at 354.33 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54e74421-b45c-410d-89a8-c6fbaba7bbf2")
-		(property "Reference" "U1"
 			(at 360.68 76.1999 0)
 			(effects
 				(font
@@ -4931,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "FC CTRL Temperature Sensor"
+		(property "Name" "H2 Plate Temperature Sensor"
 			(at 354.33 68.326 0)
 			(effects
 				(font
@@ -4940,25 +4817,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "5f0b1718-3596-481c-a80c-6f30a984056d")
+			(uuid "f09de3e3-23a8-49ab-8a68-5cfe18b6f5a0")
 		)
 		(pin "1"
-			(uuid "4ef68841-84f6-4212-bd99-943ef73cee35")
+			(uuid "8f29c0e2-d57c-42ec-9596-e9c8229a875d")
 		)
 		(pin "3"
-			(uuid "8d5d1fe7-1696-4a2a-8b6f-a2221fdcd6ec")
+			(uuid "29b8cc8b-ebbc-4466-8830-9f4d014bd71a")
 		)
 		(instances
 			(project "ElectricalLayoutV2"
 				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Exocet_Electrical:Valve_Actuator")
 		(lib_id "Exocet_Electrical:Valve_Actuator")
 		(at 227.33 220.98 0)
 		(unit 1)
@@ -5139,89 +5015,6 @@
 			(project "ElectricalLayoutV2"
 				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
 					(reference "FCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:DS18B20")
-		(at 354.33 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81d22c02-86dc-4260-9978-a13344f4390f")
-		(property "Reference" "U5"
-			(at 360.68 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 360.68 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 379.73 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 358.14 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 354.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "Extra Temperature Sensor"
-			(at 354.33 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7561dd51-2ee5-4440-baea-9569f6caec86")
-		)
-		(pin "1"
-			(uuid "75070ef4-4546-4202-a66a-16cc0c06e97e")
-		)
-		(pin "3"
-			(uuid "5a9bfab2-6710-4aef-ab26-0b5442fdc1b0")
-		)
-		(instances
-			(project "ElectricalLayoutV2"
-				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5477,7 +5270,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at 354.33 118.11 0)
+		(at 354.33 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5486,7 +5279,7 @@
 		(dnp no)
 		(uuid "b8f6c21f-3216-4ff5-b143-7cb5d2277e50")
 		(property "Reference" "U3"
-			(at 360.68 116.8399 0)
+			(at 360.68 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5289,7 @@
 			)
 		)
 		(property "Value" "DS18B20"
-			(at 360.68 119.3799 0)
+			(at 360.68 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5299,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 379.73 124.46 0)
+			(at 379.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5308,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 358.14 111.76 0)
+			(at 358.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5317,7 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 354.33 118.11 0)
+			(at 354.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5326,7 @@
 			)
 		)
 		(property "Name" "H2 Tanks Temperature Sensor"
-			(at 354.33 108.966 0)
+			(at 354.33 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5510,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Exocet_Electrical:Valve_Actuator")
 		(lib_id "Exocet_Electrical:Valve_Actuator")
 		(at 208.28 220.98 0)
 		(unit 1)
@@ -5890,7 +5682,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Exocet_Electrical:Manometer")
 		(lib_id "Exocet_Electrical:Manometer")
 		(at 284.48 220.98 0)
 		(unit 1)
@@ -6053,16 +5844,6 @@
 			)
 			(uuid "1636453f-2f6b-4440-8e73-4c1f1227ae19")
 		)
-		(pin "TEMP_5" bidirectional
-			(at 334.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "03c796c7-42d3-4e97-a1de-cab43319bc24")
-		)
 		(pin "TEMP_3" bidirectional
 			(at 334.01 111.76 0)
 			(effects
@@ -6072,16 +5853,6 @@
 				(justify right)
 			)
 			(uuid "b0f96242-ed89-47bb-9efb-8c8263f3de8d")
-		)
-		(pin "TEMP_4" bidirectional
-			(at 334.01 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "31ab4e0a-b9d5-4758-8085-f0a12157c245")
 		)
 		(pin "TEMP_2" bidirectional
 			(at 334.01 91.44 0)
@@ -6132,8 +5903,8 @@
 		)
 	)
 	(sheet
-		(at 13.97 13.97)
-		(size 193.04 44.45)
+		(at 133.35 13.97)
+		(size 73.66 44.45)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6143,7 +5914,7 @@
 		)
 		(uuid "1316ebaa-35ec-4351-8207-3231c2fdd721")
 		(property "Sheetname" "Dashboard"
-			(at 14.224 16.002 0)
+			(at 133.604 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +5923,7 @@
 			)
 		)
 		(property "Sheetfile" "dashboard.kicad_sch"
-			(at 13.97 59.0046 0)
+			(at 133.35 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

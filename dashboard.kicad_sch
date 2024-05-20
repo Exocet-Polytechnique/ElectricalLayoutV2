@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Dashboard Layout")
-		(date "2024-05-16")
-		(rev "1.1.1")
+		(date "2024-05-19")
+		(rev "1.2.0")
 		(company "Exocet Polytechnique Montréal")
 	)
 	(lib_symbols
