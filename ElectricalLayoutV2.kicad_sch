@@ -316,111 +316,6 @@
 				)
 			)
 		)
-		(symbol "Exocet_Electrical:Brake_Chopper"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BRC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Brake_Chopper_1_1"
-				(rectangle
-					(start -2.54 -1.27)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "??"
-					(at 0 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Exocet_Electrical:Brightloop_DC-DC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2722,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 165.1 99.06)
+			(xy 160.02 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0.45)
@@ -3245,17 +3140,6 @@
 		)
 		(uuid "83ad2b29-6287-48b9-a903-3d8ef9d100cf")
 	)
-	(wire
-		(pts
-			(xy 170.18 99.06) (xy 175.26 99.06)
-		)
-		(stroke
-			(width 0.45)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "84e60d08-ba81-4e40-946b-0ebd9c24bf97")
-	)
 	(bus
 		(pts
 			(xy 341.63 96.52) (xy 341.63 100.33)
@@ -3744,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 186.69 99.06)
+			(xy 176.53 99.06) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0.45)
@@ -4108,7 +3992,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 179.07 99.06 270)
+		(at 172.72 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4116,7 +4000,7 @@
 		(dnp no)
 		(uuid "026431ec-2ee0-47d5-bcfc-7485c71e0692")
 		(property "Reference" "F1"
-			(at 179.07 94.742 90)
+			(at 172.72 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4008,7 @@
 			)
 		)
 		(property "Value" "120A"
-			(at 179.07 96.52 90)
+			(at 172.72 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 97.282 90)
+			(at 172.72 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4034,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 179.07 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,84 +4300,6 @@
 			(project "ElectricalLayoutV2"
 				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Exocet_Electrical:Brake_Chopper")
-		(at 167.64 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cbbd59f-24bc-4554-9ab0-d864dab647d7")
-		(property "Reference" "BRC1"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "May not be connected properly here"
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "Brake Chopper"
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "059b604b-1446-4f70-8513-59daf694c106")
-		)
-		(pin ""
-			(uuid "7bfd528e-9277-4e34-a51d-e36468e71bd6")
-		)
-		(instances
-			(project "ElectricalLayoutV2"
-				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318"
-					(reference "BRC1")
 					(unit 1)
 				)
 			)
