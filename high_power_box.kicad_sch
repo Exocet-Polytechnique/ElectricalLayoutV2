@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "High Power Box Layout")
-		(date "2024-05-19")
-		(rev "1.2.0")
+		(date "2024-06-04")
+		(rev "1.3.0")
 		(company "Exocet Polytechnique Montréal")
 	)
 	(lib_symbols
@@ -419,6 +419,193 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Exocet_Electrical:Battery_Sense"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BSEN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Sense_1_1"
+				(rectangle
+					(start -10.16 -1.27)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -11.43 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "SENSE+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "SENSE-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "~{ALCC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1375,18 +1562,6 @@
 		(uuid "4accc6c6-b040-49e3-9f82-1ee9f51b7005")
 	)
 	(junction
-		(at 55.88 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51eb6e4d-e297-4cff-b04a-e7f8b2b52429")
-	)
-	(junction
-		(at 48.26 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "627471f3-7951-48f2-9e91-dbba84a64a3b")
-	)
-	(junction
 		(at 234.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1441,6 +1616,15 @@
 		(uuid "97a2eb20-127c-4227-8374-0f78c18edc1e")
 	)
 	(bus_entry
+		(at 27.94 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024c37c7-0739-41fd-8ae1-298a34d1044a")
+	)
+	(bus_entry
 		(at 168.91 83.82)
 		(size 2.54 2.54)
 		(stroke
@@ -1469,6 +1653,15 @@
 		(uuid "41637b8d-0be4-492a-86bc-605339963593")
 	)
 	(bus_entry
+		(at 27.94 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ad0d4e-1561-4dd4-8347-153f74845658")
+	)
+	(bus_entry
 		(at 194.31 41.91)
 		(size 2.54 2.54)
 		(stroke
@@ -1487,15 +1680,6 @@
 			(color 0 194 0 1)
 		)
 		(uuid "59e93021-f986-49f2-b305-60f3396dd807")
-	)
-	(bus_entry
-		(at 48.26 49.53)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9a64be-6711-4c2c-8a60-0d98179e65c3")
 	)
 	(bus_entry
 		(at 151.13 86.36)
@@ -1563,13 +1747,13 @@
 		(uuid "8c04edb8-bfd2-4088-8c59-42f6f0bd05a3")
 	)
 	(bus_entry
-		(at 55.88 49.53)
+		(at 27.94 71.12)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2fc5662-20c2-400b-8e1d-30f0fad2f98b")
+		(uuid "98fdca54-c2da-4c6d-ac4e-4bcdba4dd70d")
 	)
 	(bus_entry
 		(at 63.5 152.4)
@@ -1590,6 +1774,24 @@
 			(color 0 194 0 1)
 		)
 		(uuid "a45c606d-e1db-4471-8fcf-718af34ae593")
+	)
+	(bus_entry
+		(at 27.94 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba127247-94cc-4b9d-8156-8ed797db8d3d")
+	)
+	(bus_entry
+		(at 27.94 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ff4fe1-5241-4f44-b6da-fb6a980bfdd5")
 	)
 	(bus_entry
 		(at 63.5 130.81)
@@ -1850,16 +2052,6 @@
 		)
 		(uuid "2654a778-b651-4598-937f-4f509bdcc349")
 	)
-	(bus
-		(pts
-			(xy 49.53 52.07) (xy 49.53 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2b7a33-49a9-4c18-ab60-51dcf979c7b9")
-	)
 	(wire
 		(pts
 			(xy 186.69 93.98) (xy 194.31 93.98)
@@ -1969,13 +2161,13 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 52.07) (xy 58.42 52.07)
+			(xy 27.94 68.58) (xy 27.94 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d7a28d6-2d97-4bdf-898c-47e50b709a80")
+		(uuid "3c79767a-ac40-4116-964b-f0546256d8b2")
 	)
 	(bus
 		(pts
@@ -1986,6 +2178,17 @@
 			(type default)
 		)
 		(uuid "3e89dbae-7dcb-4edd-aad0-459f3e4f13f7")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0.4064)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "41e3844b-dcd5-4834-a5f4-c1bddab80060")
 	)
 	(wire
 		(pts
@@ -2000,6 +2203,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 63.5) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bd694f-9564-42ec-9614-6b56281674eb")
+	)
+	(wire
+		(pts
 			(xy 121.92 66.04) (xy 129.54 66.04)
 		)
 		(stroke
@@ -2008,6 +2221,16 @@
 			(color 0 194 0 1)
 		)
 		(uuid "4650df18-6d99-4d2f-9d07-f6e83316038c")
+	)
+	(wire
+		(pts
+			(xy 30.48 71.12) (xy 33.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474d1bfd-5cf1-45f2-89b6-f7896ca831ac")
 	)
 	(wire
 		(pts
@@ -2063,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 68.58) (xy 33.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb7a89b-7fd7-41c7-9542-9b69786d0caa")
+	)
+	(wire
+		(pts
 			(xy 85.09 135.89) (xy 85.09 153.67)
 		)
 		(stroke
@@ -2104,6 +2337,16 @@
 			(color 0 194 0 1)
 		)
 		(uuid "4fd48119-f583-4cbd-9390-e893b22f12a7")
+	)
+	(bus
+		(pts
+			(xy 27.94 86.36) (xy 60.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501f1f62-13c1-40ee-a324-4587fd593d58")
 	)
 	(wire
 		(pts
@@ -2254,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 46.99) (xy 48.26 46.99)
+			(xy 43.18 46.99) (xy 55.88 46.99)
 		)
 		(stroke
 			(width 0.4064)
@@ -2352,16 +2595,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 46.99) (xy 55.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae5d80a-cd63-4430-b206-fa6be999b703")
-	)
-	(wire
-		(pts
 			(xy 156.21 54.61) (xy 160.02 54.61)
 		)
 		(stroke
@@ -2392,6 +2625,17 @@
 			(color 0 194 0 1)
 		)
 		(uuid "9409863a-c553-41d1-9a22-e20bb9f6fa05")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 53.34 66.04)
+		)
+		(stroke
+			(width 0.4064)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "9559f97b-0b8c-4cec-a702-41145a4e8c17")
 	)
 	(wire
 		(pts
@@ -2549,16 +2793,6 @@
 	)
 	(bus
 		(pts
-			(xy 49.53 86.36) (xy 60.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc36275b-8f3c-4c61-a63e-559a31fc84f4")
-	)
-	(bus
-		(pts
 			(xy 158.75 41.91) (xy 193.04 41.91)
 		)
 		(stroke
@@ -2597,6 +2831,16 @@
 		)
 		(uuid "c3ae574c-29c9-46ed-8b23-33753be76122")
 	)
+	(bus
+		(pts
+			(xy 27.94 63.5) (xy 27.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61ddd9f-9c50-4272-ac54-398f5723cbca")
+	)
 	(wire
 		(pts
 			(xy 82.55 44.45) (xy 87.63 44.45)
@@ -2607,6 +2851,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "c6296130-5f47-4ceb-9b2c-082bd84a63b9")
+	)
+	(bus
+		(pts
+			(xy 27.94 66.04) (xy 27.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93de47b-e384-4fe1-8943-d1f7f183507e")
 	)
 	(wire
 		(pts
@@ -2661,6 +2915,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 66.04) (xy 33.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf83aec0-46b6-43eb-bc61-e35d08235652")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 161.29 93.98)
 		)
 		(stroke
@@ -2669,6 +2933,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "d01b5b97-ca06-4939-8579-dcf165c8629a")
+	)
+	(bus
+		(pts
+			(xy 27.94 71.12) (xy 27.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d4f708-d5f3-4fd1-b9ac-7962ab72b693")
 	)
 	(wire
 		(pts
@@ -2689,6 +2963,17 @@
 			(type default)
 		)
 		(uuid "d28e7a43-35ae-4a9f-8814-47e6a1c3a02f")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 55.88 63.5)
+		)
+		(stroke
+			(width 0.4064)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "d3c1a435-6ab6-4768-bbc5-0e6eceb471cb")
 	)
 	(wire
 		(pts
@@ -2732,16 +3017,6 @@
 		)
 		(uuid "d7a6f19d-f921-4d52-acbb-ad1cf2c3f976")
 	)
-	(bus
-		(pts
-			(xy 50.8 52.07) (xy 49.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d813ce87-8ff8-469a-b7d1-fd4250279709")
-	)
 	(wire
 		(pts
 			(xy 182.88 121.92) (xy 182.88 134.62)
@@ -2783,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "e05a8768-e44b-4146-ba10-5dc65a9ff4ce")
+	)
+	(wire
+		(pts
+			(xy 30.48 73.66) (xy 33.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1683414-4add-4f8a-9260-cbcd5dc32d4f")
 	)
 	(wire
 		(pts
@@ -2841,13 +3126,14 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 46.99) (xy 48.26 49.53)
+			(xy 58.42 46.99) (xy 58.42 66.04)
 		)
 		(stroke
-			(width 0)
+			(width 0.4064)
 			(type default)
+			(color 194 0 0 1)
 		)
-		(uuid "e94a6625-880f-4d45-b984-f18222553837")
+		(uuid "ea4455a1-cb04-434b-abcc-e6289545fb00")
 	)
 	(wire
 		(pts
@@ -2859,6 +3145,16 @@
 			(color 132 132 0 1)
 		)
 		(uuid "ea4ab3ea-3562-4bac-a8c9-7fca3ed94828")
+	)
+	(bus
+		(pts
+			(xy 27.94 60.96) (xy 27.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb343b5e-aa8e-4cc1-a9b6-7a452bf9e5a7")
 	)
 	(bus
 		(pts
@@ -2893,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 46.99) (xy 62.23 46.99)
+			(xy 58.42 46.99) (xy 62.23 46.99)
 		)
 		(stroke
 			(width 0.4064)
@@ -3984,91 +4280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87381086-5828-4303-ad14-bf0a2127743a")
-		(property "Reference" "R1"
-			(at 52.07 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1mΩ"
-			(at 52.07 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 48.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Off-board 48V 50A shunt resistor for battery sensing"
-			(at 52.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "Shunt Resistor"
-			(at 52.07 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Example" "https://uk.rs-online.com/web/p/shunts/8103267"
-			(at 52.07 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2752df73-26da-4607-af24-36acb678e2bf")
-		)
-		(pin "1"
-			(uuid "b9577ffd-772c-4fdc-929b-bb1ac1f6d4fc")
-		)
-		(instances
-			(project "ElectricalLayoutV2"
-				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318/6b85a2a0-c41e-4083-8984-143c828ef816"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Exocet_Electrical:Connector_3")
 		(at 63.5 49.53 180)
 		(unit 1)
@@ -4753,6 +4964,89 @@
 			(project "ElectricalLayoutV2"
 				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318/6b85a2a0-c41e-4083-8984-143c828ef816"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Exocet_Electrical:Battery_Sense")
+		(at 43.18 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce88702b-9bf7-4db5-9e17-d0df6c97d37d")
+		(property "Reference" "BSEN1"
+			(at 43.434 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "edc4a343-314a-42fe-9d0b-a68479492b87")
+		)
+		(pin ""
+			(uuid "2d68cec2-13c8-443d-ba97-52ef70bb8595")
+		)
+		(pin ""
+			(uuid "c135db5d-7a1f-4159-bebe-cc79bde4aee5")
+		)
+		(pin ""
+			(uuid "fe768c70-2bc5-4548-8d12-a45466d9f594")
+		)
+		(pin ""
+			(uuid "c1d80b7a-d17f-4709-be21-132ad324f0a7")
+		)
+		(pin ""
+			(uuid "c65ede98-fab6-4a68-a359-59b3c0b6185a")
+		)
+		(pin ""
+			(uuid "92890793-b602-4683-b689-2eedf2d69342")
+		)
+		(instances
+			(project "ElectricalLayoutV2"
+				(path "/00a6e2cd-bbad-49ff-bb2a-408a12871318/6b85a2a0-c41e-4083-8984-143c828ef816"
+					(reference "BSEN1")
 					(unit 1)
 				)
 			)
