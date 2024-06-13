@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Electrical Layout 2024")
-		(date "2024-06-04")
-		(rev "1.3.0")
+		(date "2024-06-13")
+		(rev "1.3.1")
 		(company "Exocet Polytechnique Montréal")
 	)
 	(lib_symbols
@@ -2162,6 +2162,12 @@
 		(uuid "47e09307-c17d-47b8-946a-64a24b2a8880")
 	)
 	(junction
+		(at 118.11 60.96)
+		(diameter 0)
+		(color 0 0 132 1)
+		(uuid "510ff7d6-7460-4cc4-bfed-c251e589fa82")
+	)
+	(junction
 		(at 172.72 99.06)
 		(diameter 0)
 		(color 204 102 0 1)
@@ -2172,12 +2178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac881f58-9443-425f-86ba-f966493d461c")
-	)
-	(junction
-		(at 115.57 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba0d306c-7c9e-4016-985a-1cdb6e5140cf")
 	)
 	(junction
 		(at 172.72 106.68)
@@ -2207,7 +2207,7 @@
 		(uuid "00867ebb-f41c-4d0b-bf51-599e42c5b289")
 	)
 	(bus_entry
-		(at 113.03 105.41)
+		(at 115.57 109.22)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2372,7 +2372,7 @@
 		(uuid "62a15211-c336-4261-8572-2a8511016516")
 	)
 	(bus_entry
-		(at 113.03 53.34)
+		(at 115.57 53.34)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2417,7 +2417,7 @@
 		(uuid "7b6c4749-d60b-4441-9eda-1acb5f2f2316")
 	)
 	(bus_entry
-		(at 113.03 45.72)
+		(at 115.57 45.72)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2426,7 +2426,7 @@
 		(uuid "7c1c4dbe-6cf4-48ff-bd89-b6bf96580f9f")
 	)
 	(bus_entry
-		(at 113.03 49.53)
+		(at 115.57 49.53)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2571,7 +2571,7 @@
 		(uuid "b87ac75d-72c2-42ac-aff2-b6896ec2a53f")
 	)
 	(bus_entry
-		(at 113.03 85.09)
+		(at 115.57 87.63)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2687,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 41.91) (xy 113.03 41.91)
+			(xy 105.41 41.91) (xy 115.57 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 41.91) (xy 113.03 45.72)
+			(xy 115.57 41.91) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 100.33 85.09)
+			(xy 100.33 83.82) (xy 100.33 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2810,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 87.63) (xy 115.57 107.95)
+			(xy 118.11 90.17) (xy 118.11 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 113.03 53.34)
+			(xy 115.57 57.15) (xy 115.57 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3223,11 +3223,12 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 55.88) (xy 115.57 60.96)
+			(xy 118.11 55.88) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 132 0 0 1)
 		)
 		(uuid "6564b102-51d8-4dee-9eab-4698c85c72b4")
 	)
@@ -3243,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 113.03 105.41)
+			(xy 100.33 109.22) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3282,16 +3283,6 @@
 			(type default)
 		)
 		(uuid "6b3aaebc-9529-4181-972c-925562e82060")
-	)
-	(bus
-		(pts
-			(xy 115.57 60.96) (xy 212.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bdb90fa-aa0a-480b-a835-83048de2a194")
 	)
 	(wire
 		(pts
@@ -3407,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 57.15) (xy 113.03 57.15)
+			(xy 105.41 57.15) (xy 115.57 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3417,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 85.09) (xy 113.03 85.09)
+			(xy 100.33 87.63) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3707,7 +3698,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 87.63) (xy 115.57 60.96)
+			(xy 118.11 90.17) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3759,11 +3750,12 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 48.26) (xy 115.57 52.07)
+			(xy 118.11 48.26) (xy 118.11 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 132 0 0 1)
 		)
 		(uuid "b4ad810a-4ab0-468e-b57e-49386a645c3a")
 	)
@@ -3893,6 +3885,16 @@
 		)
 		(uuid "c8084097-8ea1-4a2c-b657-6cf1ffc37b43")
 	)
+	(bus
+		(pts
+			(xy 118.11 60.96) (xy 212.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99b81ef-4819-4382-a748-d3aea101b845")
+	)
 	(wire
 		(pts
 			(xy 181.61 104.14) (xy 186.69 104.14)
@@ -3969,7 +3971,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 49.53) (xy 113.03 49.53)
+			(xy 113.03 49.53) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4101,11 +4103,12 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 52.07) (xy 115.57 55.88)
+			(xy 118.11 52.07) (xy 118.11 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 132 0 0 1)
 		)
 		(uuid "f0ec2971-9255-4fae-afac-7063332ba210")
 	)
@@ -4121,7 +4124,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 100.33 104.14)
+			(xy 100.33 109.22) (xy 100.33 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4340,6 +4343,127 @@
 			(justify left bottom)
 		)
 		(uuid "dfc22955-1312-4ed0-a75c-7afd97ae622e")
+	)
+	(label "FCB-"
+		(at 111.76 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c52eb09-4ccd-44d4-bba5-abea942be23e")
+	)
+	(label "FCB+"
+		(at 111.76 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17bb1de4-eeb4-4124-bad8-f68603c38341")
+	)
+	(label "FCCB-"
+		(at 95.25 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a24e54b-1e3e-4144-8392-4dd856eff040")
+	)
+	(label "FCCA-"
+		(at 66.04 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fe4ee0d-5e07-4529-9602-68274cba2f4b")
+	)
+	(label "FCA+"
+		(at 111.76 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33d820ff-e54d-4474-8af6-f06f3b825713")
+	)
+	(label "FCCA+"
+		(at 64.77 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b75b3d8-c635-4eaf-8449-e776383b3f5a")
+	)
+	(label "FCB_USB"
+		(at 102.87 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4370a442-f613-416d-ad37-873a5848d45d")
+	)
+	(label "FCCB+"
+		(at 92.71 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c06f60d-7fbf-4b29-b86e-344602db4a64")
+	)
+	(label "FCC_T"
+		(at 118.11 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af9b6a0f-196f-4454-adc2-ad0c8834aa8e")
+	)
+	(label "FCA_USB"
+		(at 102.87 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beb8cffd-70dd-40f7-8ab6-c1743827a24b")
+	)
+	(label "FCA-"
+		(at 111.76 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7591254-2782-4eb2-acbc-9a7aa30ff3ec")
 	)
 	(symbol
 		(lib_id "Device:Fuse")
@@ -4658,7 +4782,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at 102.87 49.53 0)
+		(at 105.41 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4666,7 +4790,7 @@
 		(dnp no)
 		(uuid "2f3de726-17cb-42b2-b80f-2fa06d818a14")
 		(property "Reference" "U1"
-			(at 96.52 48.2599 0)
+			(at 99.06 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4800,7 @@
 			)
 		)
 		(property "Value" "DS18B20"
-			(at 96.52 50.7999 0)
+			(at 99.06 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4810,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 77.47 55.88 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4819,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 99.06 43.18 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4828,7 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 102.87 49.53 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4837,7 @@
 			)
 		)
 		(property "Name" "FC CTRL Temperature Sensor"
-			(at 102.87 40.386 0)
+			(at 105.41 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
