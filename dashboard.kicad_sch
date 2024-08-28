@@ -742,6 +742,15 @@
 		(uuid "280a0ec9-9d64-40ae-8be6-88cce1007b91")
 	)
 	(bus_entry
+		(at 86.36 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3bd1c2-ddb0-47da-857e-8dc1fc608ead")
+	)
+	(bus_entry
 		(at 177.8 109.22)
 		(size 2.54 2.54)
 		(stroke
@@ -767,6 +776,15 @@
 			(type default)
 		)
 		(uuid "525ff0ef-c15f-4a70-97bf-a555bef54f59")
+	)
+	(bus_entry
+		(at 86.36 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b75984-e93b-4205-8a7b-3dc2ec2846d0")
 	)
 	(bus_entry
 		(at 177.8 113.03)
@@ -862,6 +880,16 @@
 			(type default)
 		)
 		(uuid "0a4aeb4f-90c7-4028-966b-5edb8db3448d")
+	)
+	(wire
+		(pts
+			(xy 92.71 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b38657d-60fe-4427-a80c-da849e3497fb")
 	)
 	(wire
 		(pts
@@ -1044,6 +1072,16 @@
 		)
 		(uuid "5dadd082-ad6d-49f0-b10c-610919f52410")
 	)
+	(bus
+		(pts
+			(xy 88.9 77.47) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df61d2f-d3f5-41f2-9225-ecc7e442ea2d")
+	)
 	(wire
 		(pts
 			(xy 165.1 77.47) (xy 165.1 86.36)
@@ -1105,6 +1143,16 @@
 		)
 		(uuid "77b03daf-d1d4-4ee7-8eb8-997e04bc74d2")
 	)
+	(bus
+		(pts
+			(xy 88.9 74.93) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c0ec25-9da7-4026-ae4b-5d61339665ca")
+	)
 	(wire
 		(pts
 			(xy 194.31 90.17) (xy 179.07 90.17)
@@ -1114,6 +1162,16 @@
 			(type default)
 		)
 		(uuid "7d0ed429-e3b5-4a1e-9bb8-51f7a7411f2c")
+	)
+	(bus
+		(pts
+			(xy 99.06 71.12) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3f5a53-e0f4-4fb0-bd63-3fb9e15375ca")
 	)
 	(wire
 		(pts
@@ -1391,7 +1449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 170.18 109.22 0)
 			(effects
 				(font
